@@ -16,7 +16,7 @@ import {
   TabsTrigger,
 } from "@/components/ui/tabs"
 import { Project } from "@/components/Code"
-import { Article_1 } from "@/components/Write"
+import { Article_1, Poetry_1 , Odyssey_1, Odyssey_2, Odyssey_3, Newsletter_1 } from "@/components/Write"
 import { buttonVariants } from '@/components/ui/button'
 
 
@@ -98,13 +98,20 @@ export function Dashboard() {
             <Article_1 />
           </TabsContent>
           <TabsContent value="poetry">
-            <Article_1 /> 
+            <Poetry_1 /> 
           </TabsContent>
           <TabsContent value="odyssey">
-            <Article_1 />
+
+          <div class="grid grid-cols-4 gap-4">
+            <div class="p-4 "><Odyssey_1 /> </div>
+            <div class="p-4 "><Odyssey_2 /> </div>
+            <div class="p-4 "><Odyssey_3 /> </div>
+          </div>
+            
+            
           </TabsContent>
           <TabsContent value="newsletter">
-            <Article_1 />
+            <Newsletter_1 />
           </TabsContent>
           <TabsContent value="quotes">
             <Article_1 />
