@@ -48,9 +48,6 @@ debugging_tips</Label>
     </Card>
   )
 }
-
-
-
 export function Poetry_1() {
   return (
     <Card className="w-[350px]">
@@ -80,8 +77,6 @@ export function Poetry_1() {
     </Card>
   )
 }
-
-
 export function Odyssey_1() {
   return (
     <Card className="w-[350px]">
@@ -111,8 +106,6 @@ export function Odyssey_1() {
     </Card>
   )
 }
-
-
 export function Odyssey_2() {
   return (
     <Card className="w-[350px]">
@@ -171,8 +164,6 @@ export function Odyssey_3() {
     </Card>
   )
 }
-
-
 
 export function Newsletter_1() {
   return (

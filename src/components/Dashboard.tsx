@@ -16,8 +16,9 @@ import {
   TabsTrigger,
 } from "@/components/ui/tabs"
 import { Project } from "@/components/Code"
-import { Article_1, Poetry_1 , Odyssey_1, Odyssey_2, Odyssey_3, Newsletter_1 } from "@/components/Write"
+import {Article_1, Poetry_1, Odyssey_1,  Odyssey_2,Odyssey_3, Newsletter_1} from "@/components/Write"
 import { buttonVariants } from '@/components/ui/button'
+import {CarbonChain, CarbonActivity, BSE,  CurrencyChange,WikiData, AnimeWisdomVault, DEX, PropertyNFT, StatusWindow, Portfolio, Odyssey, CheatEngine } from "@/components/Code"
 
 
 
@@ -25,7 +26,7 @@ import { buttonVariants } from '@/components/ui/button'
 
 export function Dashboard() {
   return (
-    <Tabs defaultValue="home" >
+    <Tabs defaultValue="home" client:load>
       <TabsList className="grid w-full grid-cols-7">
         <TabsTrigger value="home">Dashboard</TabsTrigger>
         <TabsTrigger value="code">Code</TabsTrigger>
@@ -37,7 +38,7 @@ export function Dashboard() {
       </TabsList>
       <TabsContent value="home">
         <br />
-        <h1 class="text-3xl text-center font-extrabold leading-tight tracking-tighter md:text-4xl">Welcome to the Dashboard</h1><br />
+        <h1 className="text-3xl text-center font-extrabold leading-tight tracking-tighter md:text-4xl">Welcome to the Dashboard</h1><br />
         <h2> A centralized structure for collection of everything that I will build.</h2>
         <br /> <br />
         <h2>  I am passionate about a lot of things. I love to code project in Python, Rust, and JavaScript and in the domains of Web Development, Blockchain, and Data Science. 
@@ -54,12 +55,12 @@ export function Dashboard() {
         <p> Make sure to check out my other projects </p>
         <br />
 
-        <div class="flex gap-4">
+        <div className="flex gap-4">
           <a
             href="https://status.pandeakshat.com"
             target="_blank"
             rel="noreferrer"
-            class={buttonVariants()}
+            className={buttonVariants()}
           >
             Status Window
           </a>
@@ -67,7 +68,7 @@ export function Dashboard() {
             href="https://medium.com/@pandeakshat"
             target="_blank"
             rel="noreferrer"
-            class={buttonVariants({ variant: 'outline' })}
+            className={buttonVariants({ variant: 'outline' })}
           >
             Medium
           </a>
@@ -82,8 +83,36 @@ export function Dashboard() {
             <TabsTrigger value="web-dev">Web Development</TabsTrigger>
             <TabsTrigger value="rust">Rust</TabsTrigger>
           </TabsList>
+          <TabsContent value="python">
+          <div className="grid grid-cols-4 gap-4">
+            <div className="p-4 "><CarbonChain /> </div>
+            <div className="p-4 "><CarbonActivity /> </div>
+            <div className="p-4 "><BSE /> </div>
+            <div className="p-4 "><CurrencyChange /> </div>
+          </div>  
+          </TabsContent>
+          <TabsContent value="data-science">
+          <div className="grid grid-cols-4 gap-4">
+            <div className="p-4 "><WikiData /> </div>
+            <div className="p-4 "><AnimeWisdomVault /> </div>
+       
+          </div> 
+          </TabsContent>
+          <TabsContent value="blockchain">
+          <div className="grid grid-cols-4 gap-4">
+          <div className="p-4 "><PropertyNFT /> </div>
+            <div className="p-4 "><DEX /> </div>
+          </div>
+          </TabsContent>
+          <TabsContent value="web-dev">
+          <div className="grid grid-cols-4 gap-4">
+            <div className="p-4 "><StatusWindow /> </div>
+            <div className="p-4 "><Portfolio /> </div>
+            <div className="p-4 "><Odyssey /> </div>
+            <div className="p-4 "><CheatEngine /> </div>
+          </div> 
+          </TabsContent>
         </Tabs>
-
       </TabsContent>
       <TabsContent value="write">
         <Tabs defaultValue="article">
@@ -101,14 +130,11 @@ export function Dashboard() {
             <Poetry_1 /> 
           </TabsContent>
           <TabsContent value="odyssey">
-
-          <div class="grid grid-cols-4 gap-4">
-            <div class="p-4 "><Odyssey_1 /> </div>
-            <div class="p-4 "><Odyssey_2 /> </div>
-            <div class="p-4 "><Odyssey_3 /> </div>
-          </div>
-            
-            
+          <div className="grid grid-cols-4 gap-4">
+            <div className="p-4 "><Odyssey_1 /> </div>
+            <div className="p-4 "><Odyssey_2 /> </div>
+            <div className="p-4 "><Odyssey_3 /> </div>
+          </div> 
           </TabsContent>
           <TabsContent value="newsletter">
             <Newsletter_1 />
@@ -130,28 +156,28 @@ export function Dashboard() {
 
         <TabsContent value="article">
         <h1
-        class="text-3xl text-center font-extrabold leading-tight tracking-tighter md:text-4xl"
+        className="text-3xl text-center font-extrabold leading-tight tracking-tighter md:text-4xl"
       >Article</h1>
           <Project />
         </TabsContent>
         <TabsContent value="book">
         <h1
-        class="text-3xl text-center font-extrabold leading-tight tracking-tighter md:text-4xl"
+        className="text-3xl text-center font-extrabold leading-tight tracking-tighter md:text-4xl"
       >Book</h1>
         </TabsContent>
         <TabsContent value="youtube">
         <h1
-        class="text-3xl text-center font-extrabold leading-tight tracking-tighter md:text-4xl"
+        className="text-3xl text-center font-extrabold leading-tight tracking-tighter md:text-4xl"
       >YouTube</h1>
         </TabsContent>
         <TabsContent value="documentary">
         <h1
-        class="text-3xl text-center font-extrabold leading-tight tracking-tighter md:text-4xl"
+        className="text-3xl text-center font-extrabold leading-tight tracking-tighter md:text-4xl"
       >Documentary</h1>
           </TabsContent>
           <TabsContent value="Podcast">
           <h1
-        class="text-3xl text-center font-extrabold leading-tight tracking-tighter md:text-4xl"
+        className="text-3xl text-center font-extrabold leading-tight tracking-tighter md:text-4xl"
       >Podcast</h1>
           </TabsContent>
           </Tabs>

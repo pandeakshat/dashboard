@@ -19,40 +19,368 @@ import {
   SelectValue,
 } from "@/components/ui/select"
 
-export function Project() {
+export function CarbonChain() {
   return (
     <Card className="w-[350px]">
       <CardHeader>
-        <CardTitle>Create project</CardTitle>
-        <CardDescription>Deploy your new project in one-click.</CardDescription>
+        <CardTitle>Carbon Chain</CardTitle>
+        <CardDescription>Python - PandeAkshat</CardDescription>
       </CardHeader>
       <CardContent>
         <form>
           <div className="grid w-full items-center gap-4">
             <div className="flex flex-col space-y-1.5">
-              <Label htmlFor="name">Name</Label>
-              <Input id="name" placeholder="Name of your project" />
-            </div>
-            <div className="flex flex-col space-y-1.5">
-              <Label htmlFor="framework">Framework</Label>
-              <Select>
-                <SelectTrigger id="framework">
-                  <SelectValue placeholder="Select" />
-                </SelectTrigger>
-                <SelectContent position="popper">
-                  <SelectItem value="next">Next.js</SelectItem>
-                  <SelectItem value="sveltekit">SvelteKit</SelectItem>
-                  <SelectItem value="astro">Astro</SelectItem>
-                  <SelectItem value="nuxt">Nuxt.js</SelectItem>
-                </SelectContent>
-              </Select>
+            <img src="./write/welcomenewsletter.png" alt="Welcome Newsletter" /> <br />
+                Tags
+                <Label htmlFor="name"><br /> newsletter;<br /> 
+                experiment; <br /> 
+                experience; <br /> 
+                expertise; <br /> 
+                express</Label>
             </div>
           </div>
         </form>
       </CardContent>
       <CardFooter className="flex justify-between">
-        <Button variant="outline">Cancel</Button>
-        <Button>Deploy</Button>
+        <a href="https://exp-er.beehiiv.com/p/welcome-to-new-exp-er" target="_blank"> <Button>Link to Project</Button></a>
+        <a href="https://exp-er.beehiiv.com/p/welcome-to-new-exp-er" target="_blank"> <Button>Link to Repository</Button></a>
+      </CardFooter>
+    </Card>
+  )
+}
+
+export function CarbonActivity() {
+  return (
+    <Card className="w-[350px]">
+      <CardHeader>
+        <CardTitle>Carbon Activity</CardTitle>
+        <CardDescription>Python - PandeAkshat</CardDescription>
+      </CardHeader>
+      <CardContent>
+        <form>
+          <div className="grid w-full items-center gap-4">
+            <div className="flex flex-col space-y-1.5">
+            <img src="./write/welcomenewsletter.png" alt="Welcome Newsletter" /> <br />
+                Tags
+                <Label htmlFor="name"><br /> newsletter;<br /> 
+                experiment; <br /> 
+                experience; <br /> 
+                expertise; <br /> 
+                express</Label>
+            </div>
+          </div>
+        </form>
+      </CardContent>
+      <CardFooter className="flex justify-between">
+        <a href="https://exp-er.beehiiv.com/p/welcome-to-new-exp-er" target="_blank"> <Button>Link to Project</Button></a>
+        <a href="https://exp-er.beehiiv.com/p/welcome-to-new-exp-er" target="_blank"> <Button>Link to Repository</Button></a>
+      </CardFooter>
+    </Card>
+  )
+}
+
+export function BSE() {
+  return (
+    <Card className="w-[350px]">
+      <CardHeader>
+        <CardTitle>BSE Simulation</CardTitle>
+        <CardDescription>Python - PandeAkshat</CardDescription>
+      </CardHeader>
+      <CardContent>
+        <form>
+          <div className="grid w-full items-center gap-4">
+            <div className="flex flex-col space-y-1.5">
+            <img src="./write/welcomenewsletter.png" alt="Welcome Newsletter" /> <br />
+                Tags
+                <Label htmlFor="name"><br /> newsletter;<br /> 
+                experiment; <br /> 
+                experience; <br /> 
+                expertise; <br /> 
+                express</Label>
+            </div>
+          </div>
+        </form>
+      </CardContent>
+      <CardFooter className="flex justify-between">
+        <a href="https://exp-er.beehiiv.com/p/welcome-to-new-exp-er" target="_blank"> <Button>Link to Project</Button></a>
+        <a href="https://exp-er.beehiiv.com/p/welcome-to-new-exp-er" target="_blank"> <Button>Link to Repository</Button></a>
+      </CardFooter>
+    </Card>
+  )
+}
+
+export function CurrencyChange() {
+  return (
+    <Card className="w-[350px]">
+      <CardHeader>
+        <CardTitle>Currency Change</CardTitle>
+        <CardDescription>Python - PandeAkshat</CardDescription>
+      </CardHeader>
+      <CardContent>
+        <form>
+          <div className="grid w-full items-center gap-4">
+            <div className="flex flex-col space-y-1.5">
+            <img src="./write/welcomenewsletter.png" alt="Welcome Newsletter" /> <br />
+                Tags
+                <Label htmlFor="name"><br /> newsletter;<br /> 
+                experiment; <br /> 
+                experience; <br /> 
+                expertise; <br /> 
+                express</Label>
+            </div>
+          </div>
+        </form>
+      </CardContent>
+      <CardFooter className="flex justify-between">
+        <a href="https://exp-er.beehiiv.com/p/welcome-to-new-exp-er" target="_blank"> <Button>Link to Project</Button></a>
+        <a href="https://exp-er.beehiiv.com/p/welcome-to-new-exp-er" target="_blank"> <Button>Link to Repository</Button></a>
+      </CardFooter>
+    </Card>
+  )
+}
+
+export function WikiData() {
+  return (
+    <Card className="w-[350px]">
+      <CardHeader>
+        <CardTitle>Wiki Data</CardTitle>
+        <CardDescription>Data Science - PandeAkshat</CardDescription>
+      </CardHeader>
+      <CardContent>
+        <form>
+          <div className="grid w-full items-center gap-4">
+            <div className="flex flex-col space-y-1.5">
+            <img src="./write/welcomenewsletter.png" alt="Welcome Newsletter" /> <br />
+                Tags
+                <Label htmlFor="name"><br /> newsletter;<br /> 
+                experiment; <br /> 
+                experience; <br /> 
+                expertise; <br /> 
+                express</Label>
+            </div>
+          </div>
+        </form>
+      </CardContent>
+      <CardFooter className="flex justify-between">
+        <a href="https://exp-er.beehiiv.com/p/welcome-to-new-exp-er" target="_blank"> <Button>Link to Project</Button></a>
+        <a href="https://exp-er.beehiiv.com/p/welcome-to-new-exp-er" target="_blank"> <Button>Link to Repository</Button></a>
+      </CardFooter>
+    </Card>
+  )
+}
+
+
+export function AnimeWisdomVault() {
+  return (
+    <Card className="w-[350px]">
+      <CardHeader>
+        <CardTitle>Anime Wisdom Vault</CardTitle>
+        <CardDescription>Data Science - PandeAkshat</CardDescription>
+      </CardHeader>
+      <CardContent>
+        <form>
+          <div className="grid w-full items-center gap-4">
+            <div className="flex flex-col space-y-1.5">
+            <img src="./write/welcomenewsletter.png" alt="Welcome Newsletter" /> <br />
+                Tags
+                <Label htmlFor="name"><br /> newsletter;<br /> 
+                experiment; <br /> 
+                experience; <br /> 
+                expertise; <br /> 
+                express</Label>
+            </div>
+          </div>
+        </form>
+      </CardContent>
+      <CardFooter className="flex justify-between">
+        <a href="https://exp-er.beehiiv.com/p/welcome-to-new-exp-er" target="_blank"> <Button>Link to Project</Button></a>
+        <a href="https://exp-er.beehiiv.com/p/welcome-to-new-exp-er" target="_blank"> <Button>Link to Repository</Button></a>
+      </CardFooter>
+    </Card>
+  )
+}
+
+
+export function PropertyNFT() {
+  return (
+    <Card className="w-[350px]">
+      <CardHeader>
+        <CardTitle>PropertyNFT</CardTitle>
+        <CardDescription>Blockchain - PandeAkshat</CardDescription>
+      </CardHeader>
+      <CardContent>
+        <form>
+          <div className="grid w-full items-center gap-4">
+            <div className="flex flex-col space-y-1.5">
+            <img src="./write/welcomenewsletter.png" alt="Welcome Newsletter" /> <br />
+                Tags
+                <Label htmlFor="name"><br /> newsletter;<br /> 
+                experiment; <br /> 
+                experience; <br /> 
+                expertise; <br /> 
+                express</Label>
+            </div>
+          </div>
+        </form>
+      </CardContent>
+      <CardFooter className="flex justify-between">
+        <a href="https://exp-er.beehiiv.com/p/welcome-to-new-exp-er" target="_blank"> <Button>Link to Project</Button></a>
+        <a href="https://exp-er.beehiiv.com/p/welcome-to-new-exp-er" target="_blank"> <Button>Link to Repository</Button></a>
+      </CardFooter>
+    </Card>
+  )
+}
+
+
+export function DEX() {
+  return (
+    <Card className="w-[350px]">
+      <CardHeader>
+        <CardTitle>Decentralized Exchange</CardTitle>
+        <CardDescription>Blockchain - PandeAkshat</CardDescription>
+      </CardHeader>
+      <CardContent>
+        <form>
+          <div className="grid w-full items-center gap-4">
+            <div className="flex flex-col space-y-1.5">
+            <img src="./write/welcomenewsletter.png" alt="Welcome Newsletter" /> <br />
+                Tags
+                <Label htmlFor="name"><br /> newsletter;<br /> 
+                experiment; <br /> 
+                experience; <br /> 
+                expertise; <br /> 
+                express</Label>
+            </div>
+          </div>
+        </form>
+      </CardContent>
+      <CardFooter className="flex justify-between">
+        <a href="https://exp-er.beehiiv.com/p/welcome-to-new-exp-er" target="_blank"> <Button>Link to Project</Button></a>
+        <a href="https://exp-er.beehiiv.com/p/welcome-to-new-exp-er" target="_blank"> <Button>Link to Repository</Button></a>
+      </CardFooter>
+    </Card>
+  )
+}
+
+
+export function StatusWindow() {
+  return (
+    <Card className="w-[350px]">
+      <CardHeader>
+        <CardTitle>Status Window</CardTitle>
+        <CardDescription>WebDev - PandeAkshat</CardDescription>
+      </CardHeader>
+      <CardContent>
+        <form>
+          <div className="grid w-full items-center gap-4">
+            <div className="flex flex-col space-y-1.5">
+            <img src="./write/welcomenewsletter.png" alt="Welcome Newsletter" /> <br />
+                Tags
+                <Label htmlFor="name"><br /> newsletter;<br /> 
+                experiment; <br /> 
+                experience; <br /> 
+                expertise; <br /> 
+                express</Label>
+            </div>
+          </div>
+        </form>
+      </CardContent>
+      <CardFooter className="flex justify-between">
+        <a href="https://exp-er.beehiiv.com/p/welcome-to-new-exp-er" target="_blank"> <Button>Link to Project</Button></a>
+        <a href="https://exp-er.beehiiv.com/p/welcome-to-new-exp-er" target="_blank"> <Button>Link to Repository</Button></a>
+      </CardFooter>
+    </Card>
+  )
+}
+
+
+export function Portfolio() {
+  return (
+    <Card className="w-[350px]">
+      <CardHeader>
+        <CardTitle>Portfolio</CardTitle>
+        <CardDescription>WebDev - PandeAkshat</CardDescription>
+      </CardHeader>
+      <CardContent>
+        <form>
+          <div className="grid w-full items-center gap-4">
+            <div className="flex flex-col space-y-1.5">
+            <img src="./write/welcomenewsletter.png" alt="Welcome Newsletter" /> <br />
+                Tags
+                <Label htmlFor="name"><br /> newsletter;<br /> 
+                experiment; <br /> 
+                experience; <br /> 
+                expertise; <br /> 
+                express</Label>
+            </div>
+          </div>
+        </form>
+      </CardContent>
+      <CardFooter className="flex justify-between">
+        <a href="https://exp-er.beehiiv.com/p/welcome-to-new-exp-er" target="_blank"> <Button>Link to Project</Button></a>
+        <a href="https://exp-er.beehiiv.com/p/welcome-to-new-exp-er" target="_blank"> <Button>Link to Repository</Button></a>
+      </CardFooter>
+    </Card>
+  )
+}
+
+
+export function Odyssey() {
+  return (
+    <Card className="w-[350px]">
+      <CardHeader>
+        <CardTitle>Odyssey</CardTitle>
+        <CardDescription>WebDev - PandeAkshat</CardDescription>
+      </CardHeader>
+      <CardContent>
+        <form>
+          <div className="grid w-full items-center gap-4">
+            <div className="flex flex-col space-y-1.5">
+            <img src="./write/welcomenewsletter.png" alt="Welcome Newsletter" /> <br />
+                Tags
+                <Label htmlFor="name"><br /> newsletter;<br /> 
+                experiment; <br /> 
+                experience; <br /> 
+                expertise; <br /> 
+                express</Label>
+            </div>
+          </div>
+        </form>
+      </CardContent>
+      <CardFooter className="flex justify-between">
+        <a href="https://exp-er.beehiiv.com/p/welcome-to-new-exp-er" target="_blank"> <Button>Link to Project</Button></a>
+        <a href="https://exp-er.beehiiv.com/p/welcome-to-new-exp-er" target="_blank"> <Button>Link to Repository</Button></a>
+      </CardFooter>
+    </Card>
+  )
+}
+
+
+export function CheatEngine() {
+  return (
+    <Card className="w-[350px]">
+      <CardHeader>
+        <CardTitle>Cheat Engine</CardTitle>
+        <CardDescription>Web Dev - PandeAkshat</CardDescription>
+      </CardHeader>
+      <CardContent>
+        <form>
+          <div className="grid w-full items-center gap-4">
+            <div className="flex flex-col space-y-1.5">
+            <img src="./write/welcomenewsletter.png" alt="Welcome Newsletter" /> <br />
+                Tags
+                <Label htmlFor="name"><br /> newsletter;<br /> 
+                experiment; <br /> 
+                experience; <br /> 
+                expertise; <br /> 
+                express</Label>
+            </div>
+          </div>
+        </form>
+      </CardContent>
+      <CardFooter className="flex justify-between">
+        <a href="https://exp-er.beehiiv.com/p/welcome-to-new-exp-er" target="_blank"> <Button>Link to Project</Button></a>
+        <a href="https://exp-er.beehiiv.com/p/welcome-to-new-exp-er" target="_blank"> <Button>Link to Repository</Button></a>
       </CardFooter>
     </Card>
   )
